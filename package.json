@@ -1,0 +1,95 @@
+{
+    "author": "Jsakamoto",
+    "dependencies": {},
+    "keywords": [],
+    "name": "zeonanalogcolor",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "ZeonAnalogFaceColor",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "temp": 0,
+            "weather": 1
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/zeon64col3.png",
+                    "name": "WATCH_FACE",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clearx16.png",
+                    "name": "WEATHER_CLEAR",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "png"
+                },
+                {
+                    "file": "images/Cloudyx16.png",
+                    "name": "WEATHER_CLOUDY",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "png"
+                },
+                {
+                    "file": "images/rainyx16.png",
+                    "name": "WEATHER_RAINY",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "png"
+                },
+                {
+                    "file": "images/readyx16.png",
+                    "name": "WEATHER_READY",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "png"
+                },
+                {
+                    "file": "images/snowx16.png",
+                    "name": "WEATHER_SNOWY",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "png"
+                },
+                {
+                    "file": "images/thunderx16.png",
+                    "name": "WEATHER_THUNDER",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "b3a51aa4-ae15-41e4-be2a-ca6fbcb0b3ce",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
