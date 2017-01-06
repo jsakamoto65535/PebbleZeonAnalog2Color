@@ -2,11 +2,12 @@
 
 #include "pebble.h"
 
-/* add weaather & temp window
+/* ---------------------------
+  WatchFace For Pebble Basalt
 
 
 
-
+ ------------------------------
 */
   
   
