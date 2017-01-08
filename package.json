@@ -2,12 +2,12 @@
     "author": "Jsakamoto",
     "dependencies": {},
     "keywords": [],
-    "name": "zeonanalogcolor",
+    "name": "zeonicwatch",
     "pebble": {
         "capabilities": [
             "location"
         ],
-        "displayName": "ZeonAnalogFaceColor",
+        "displayName": "ZeonicWatch",
         "enableMultiJS": false,
         "messageKeys": {
             "temp": 0,
@@ -16,6 +16,14 @@
         "projectType": "native",
         "resources": {
             "media": [
+                {
+                    "file": "images/ZEONIcon25x25.png",
+                    "name": "MENU_ICON",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
                 {
                     "file": "images/zeon64col3.png",
                     "name": "WATCH_FACE",
